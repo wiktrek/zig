@@ -2,5 +2,5 @@ const std = @import("std");
 
 pub fn main() !void {
     const stdout = std.io.getStdOut().writer();
-    try stdout.writeAll("hello");
+    try stdout.writeAll("hello - hello.zig");
 }
